@@ -16,6 +16,30 @@
 		F8601A961313225800446C79 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8601A941313225800446C79 /* MainWindow.xib */; };
 		F8601A991313225800446C79 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8601A981313225800446C79 /* RootViewController.m */; };
 		F8601A9C1313225800446C79 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8601A9A1313225800446C79 /* RootViewController.xib */; };
+		F8601AA31313228900446C79 /* Routes.xml in Resources */ = {isa = PBXBuildFile; fileRef = F8601AA21313228900446C79 /* Routes.xml */; };
+		F8601ABC131322E500446C79 /* XMLDigester.m in Sources */ = {isa = PBXBuildFile; fileRef = F8601AA5131322E400446C79 /* XMLDigester.m */; };
+		F8601ABD131322E500446C79 /* XMLDigesterAddObjectRule.m in Sources */ = {isa = PBXBuildFile; fileRef = F8601AA7131322E400446C79 /* XMLDigesterAddObjectRule.m */; };
+		F8601ABE131322E500446C79 /* XMLDigesterCallMethodRule.m in Sources */ = {isa = PBXBuildFile; fileRef = F8601AA9131322E400446C79 /* XMLDigesterCallMethodRule.m */; };
+		F8601ABF131322E500446C79 /* XMLDigesterCallMethodWithAttributeRule.m in Sources */ = {isa = PBXBuildFile; fileRef = F8601AAB131322E400446C79 /* XMLDigesterCallMethodWithAttributeRule.m */; };
+		F8601AC0131322E500446C79 /* XMLDigesterCallMethodWithElementBodyRule.m in Sources */ = {isa = PBXBuildFile; fileRef = F8601AAD131322E400446C79 /* XMLDigesterCallMethodWithElementBodyRule.m */; };
+		F8601AC1131322E500446C79 /* XMLDigesterCallParamRule.m in Sources */ = {isa = PBXBuildFile; fileRef = F8601AAF131322E400446C79 /* XMLDigesterCallParamRule.m */; };
+		F8601AC2131322E500446C79 /* XMLDigesterObjectCreateRule.m in Sources */ = {isa = PBXBuildFile; fileRef = F8601AB1131322E400446C79 /* XMLDigesterObjectCreateRule.m */; };
+		F8601AC3131322E500446C79 /* XMLDigesterPushBodyRule.m in Sources */ = {isa = PBXBuildFile; fileRef = F8601AB3131322E400446C79 /* XMLDigesterPushBodyRule.m */; };
+		F8601AC4131322E500446C79 /* XMLDigesterRule.m in Sources */ = {isa = PBXBuildFile; fileRef = F8601AB5131322E400446C79 /* XMLDigesterRule.m */; };
+		F8601AC5131322E500446C79 /* XMLDigesterSetNextRule.m in Sources */ = {isa = PBXBuildFile; fileRef = F8601AB7131322E400446C79 /* XMLDigesterSetNextRule.m */; };
+		F8601AC6131322E500446C79 /* XMLDigesterSetPropertiesRule.m in Sources */ = {isa = PBXBuildFile; fileRef = F8601AB9131322E400446C79 /* XMLDigesterSetPropertiesRule.m */; };
+		F8601AC7131322E500446C79 /* XMLDigesterSetPropertyRule.m in Sources */ = {isa = PBXBuildFile; fileRef = F8601ABB131322E500446C79 /* XMLDigesterSetPropertyRule.m */; };
+		F8601ACA1313244C00446C79 /* XMLDigesterBlockRule.m in Sources */ = {isa = PBXBuildFile; fileRef = F8601AC91313244C00446C79 /* XMLDigesterBlockRule.m */; };
+		F8601ACD131324B200446C79 /* Route.m in Sources */ = {isa = PBXBuildFile; fileRef = F8601ACC131324B200446C79 /* Route.m */; };
+		F8601AD01313281B00446C79 /* Stop.m in Sources */ = {isa = PBXBuildFile; fileRef = F8601ACF1313281B00446C79 /* Stop.m */; };
+		F8601AD313132B3B00446C79 /* Direction.m in Sources */ = {isa = PBXBuildFile; fileRef = F8601AD213132B3B00446C79 /* Direction.m */; };
+		F8601AD6131336BF00446C79 /* DirectionsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8601AD5131336BE00446C79 /* DirectionsTableViewController.m */; };
+		F8601AD9131338B900446C79 /* StopsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8601AD8131338B700446C79 /* StopsTableViewController.m */; };
+		F8601ADD13133FC100446C79 /* StopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8601ADB13133FBC00446C79 /* StopViewController.m */; };
+		F8601ADE13133FC100446C79 /* StopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8601ADC13133FBE00446C79 /* StopViewController.xib */; };
+		F8601AE013133FED00446C79 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8601ADF13133FED00446C79 /* MapKit.framework */; };
+		F8601AE21313414600446C79 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8601AE11313414600446C79 /* CoreLocation.framework */; };
+		F8601AE5131346C500446C79 /* RoutesParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F8601AE4131346C200446C79 /* RoutesParser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +47,60 @@
 		F8601A821313225800446C79 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F8601A841313225800446C79 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F8601A861313225800446C79 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F8601A8A1313225800446C79 /* Routes-Info.plist */ = {isa = PBXFileReference; path = "Routes-Info.plist"; sourceTree = "<group>"; };
+		F8601A8A1313225800446C79 /* Routes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Routes-Info.plist"; sourceTree = "<group>"; };
 		F8601A8C1313225800446C79 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F8601A8E1313225800446C79 /* Routes-Prefix.pch */ = {isa = PBXFileReference; path = "Routes-Prefix.pch"; sourceTree = "<group>"; };
+		F8601A8E1313225800446C79 /* Routes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Routes-Prefix.pch"; sourceTree = "<group>"; };
 		F8601A8F1313225800446C79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F8601A911313225800446C79 /* RoutesAppDelegate.h */ = {isa = PBXFileReference; path = RoutesAppDelegate.h; sourceTree = "<group>"; };
+		F8601A911313225800446C79 /* RoutesAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoutesAppDelegate.h; sourceTree = "<group>"; };
 		F8601A921313225800446C79 /* RoutesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoutesAppDelegate.m; sourceTree = "<group>"; };
 		F8601A951313225800446C79 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		F8601A971313225800446C79 /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		F8601A971313225800446C79 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		F8601A981313225800446C79 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		F8601A9B1313225800446C79 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		F8601AA21313228900446C79 /* Routes.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Routes.xml; sourceTree = "<group>"; };
+		F8601AA4131322E400446C79 /* XMLDigester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDigester.h; sourceTree = "<group>"; };
+		F8601AA5131322E400446C79 /* XMLDigester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDigester.m; sourceTree = "<group>"; };
+		F8601AA6131322E400446C79 /* XMLDigesterAddObjectRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDigesterAddObjectRule.h; sourceTree = "<group>"; };
+		F8601AA7131322E400446C79 /* XMLDigesterAddObjectRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDigesterAddObjectRule.m; sourceTree = "<group>"; };
+		F8601AA8131322E400446C79 /* XMLDigesterCallMethodRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDigesterCallMethodRule.h; sourceTree = "<group>"; };
+		F8601AA9131322E400446C79 /* XMLDigesterCallMethodRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDigesterCallMethodRule.m; sourceTree = "<group>"; };
+		F8601AAA131322E400446C79 /* XMLDigesterCallMethodWithAttributeRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDigesterCallMethodWithAttributeRule.h; sourceTree = "<group>"; };
+		F8601AAB131322E400446C79 /* XMLDigesterCallMethodWithAttributeRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDigesterCallMethodWithAttributeRule.m; sourceTree = "<group>"; };
+		F8601AAC131322E400446C79 /* XMLDigesterCallMethodWithElementBodyRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDigesterCallMethodWithElementBodyRule.h; sourceTree = "<group>"; };
+		F8601AAD131322E400446C79 /* XMLDigesterCallMethodWithElementBodyRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDigesterCallMethodWithElementBodyRule.m; sourceTree = "<group>"; };
+		F8601AAE131322E400446C79 /* XMLDigesterCallParamRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDigesterCallParamRule.h; sourceTree = "<group>"; };
+		F8601AAF131322E400446C79 /* XMLDigesterCallParamRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDigesterCallParamRule.m; sourceTree = "<group>"; };
+		F8601AB0131322E400446C79 /* XMLDigesterObjectCreateRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDigesterObjectCreateRule.h; sourceTree = "<group>"; };
+		F8601AB1131322E400446C79 /* XMLDigesterObjectCreateRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDigesterObjectCreateRule.m; sourceTree = "<group>"; };
+		F8601AB2131322E400446C79 /* XMLDigesterPushBodyRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDigesterPushBodyRule.h; sourceTree = "<group>"; };
+		F8601AB3131322E400446C79 /* XMLDigesterPushBodyRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDigesterPushBodyRule.m; sourceTree = "<group>"; };
+		F8601AB4131322E400446C79 /* XMLDigesterRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDigesterRule.h; sourceTree = "<group>"; };
+		F8601AB5131322E400446C79 /* XMLDigesterRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDigesterRule.m; sourceTree = "<group>"; };
+		F8601AB6131322E400446C79 /* XMLDigesterSetNextRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDigesterSetNextRule.h; sourceTree = "<group>"; };
+		F8601AB7131322E400446C79 /* XMLDigesterSetNextRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDigesterSetNextRule.m; sourceTree = "<group>"; };
+		F8601AB8131322E400446C79 /* XMLDigesterSetPropertiesRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDigesterSetPropertiesRule.h; sourceTree = "<group>"; };
+		F8601AB9131322E400446C79 /* XMLDigesterSetPropertiesRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDigesterSetPropertiesRule.m; sourceTree = "<group>"; };
+		F8601ABA131322E400446C79 /* XMLDigesterSetPropertyRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDigesterSetPropertyRule.h; sourceTree = "<group>"; };
+		F8601ABB131322E500446C79 /* XMLDigesterSetPropertyRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDigesterSetPropertyRule.m; sourceTree = "<group>"; };
+		F8601AC81313244C00446C79 /* XMLDigesterBlockRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDigesterBlockRule.h; sourceTree = "<group>"; };
+		F8601AC91313244C00446C79 /* XMLDigesterBlockRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDigesterBlockRule.m; sourceTree = "<group>"; };
+		F8601ACB131324B200446C79 /* Route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Route.h; sourceTree = "<group>"; };
+		F8601ACC131324B200446C79 /* Route.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Route.m; sourceTree = "<group>"; };
+		F8601ACE1313281B00446C79 /* Stop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stop.h; sourceTree = "<group>"; };
+		F8601ACF1313281B00446C79 /* Stop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stop.m; sourceTree = "<group>"; };
+		F8601AD113132B3B00446C79 /* Direction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Direction.h; sourceTree = "<group>"; };
+		F8601AD213132B3B00446C79 /* Direction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Direction.m; sourceTree = "<group>"; };
+		F8601AD4131336BD00446C79 /* DirectionsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DirectionsTableViewController.h; sourceTree = "<group>"; };
+		F8601AD5131336BE00446C79 /* DirectionsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DirectionsTableViewController.m; sourceTree = "<group>"; };
+		F8601AD7131338B600446C79 /* StopsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StopsTableViewController.h; sourceTree = "<group>"; };
+		F8601AD8131338B700446C79 /* StopsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StopsTableViewController.m; sourceTree = "<group>"; };
+		F8601ADA13133FBA00446C79 /* StopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StopViewController.h; sourceTree = "<group>"; };
+		F8601ADB13133FBC00446C79 /* StopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StopViewController.m; sourceTree = "<group>"; };
+		F8601ADC13133FBE00446C79 /* StopViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StopViewController.xib; sourceTree = "<group>"; };
+		F8601ADF13133FED00446C79 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F8601AE11313414600446C79 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F8601AE3131346C000446C79 /* RoutesParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoutesParser.h; sourceTree = "<group>"; };
+		F8601AE4131346C200446C79 /* RoutesParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoutesParser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +108,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8601AE21313414600446C79 /* CoreLocation.framework in Frameworks */,
+				F8601AE013133FED00446C79 /* MapKit.framework in Frameworks */,
 				F8601A831313225800446C79 /* UIKit.framework in Frameworks */,
 				F8601A851313225800446C79 /* Foundation.framework in Frameworks */,
 				F8601A871313225800446C79 /* CoreGraphics.framework in Frameworks */,
@@ -52,6 +122,8 @@
 		F8601A731313225800446C79 = {
 			isa = PBXGroup;
 			children = (
+				F8601AE11313414600446C79 /* CoreLocation.framework */,
+				F8601ADF13133FED00446C79 /* MapKit.framework */,
 				F8601A881313225800446C79 /* Routes */,
 				F8601A811313225800446C79 /* Frameworks */,
 				F8601A7F1313225800446C79 /* Products */,
@@ -79,6 +151,31 @@
 		F8601A881313225800446C79 /* Routes */ = {
 			isa = PBXGroup;
 			children = (
+				F8601AA4131322E400446C79 /* XMLDigester.h */,
+				F8601AA5131322E400446C79 /* XMLDigester.m */,
+				F8601AA6131322E400446C79 /* XMLDigesterAddObjectRule.h */,
+				F8601AA7131322E400446C79 /* XMLDigesterAddObjectRule.m */,
+				F8601AA8131322E400446C79 /* XMLDigesterCallMethodRule.h */,
+				F8601AA9131322E400446C79 /* XMLDigesterCallMethodRule.m */,
+				F8601AAA131322E400446C79 /* XMLDigesterCallMethodWithAttributeRule.h */,
+				F8601AAB131322E400446C79 /* XMLDigesterCallMethodWithAttributeRule.m */,
+				F8601AAC131322E400446C79 /* XMLDigesterCallMethodWithElementBodyRule.h */,
+				F8601AAD131322E400446C79 /* XMLDigesterCallMethodWithElementBodyRule.m */,
+				F8601AAE131322E400446C79 /* XMLDigesterCallParamRule.h */,
+				F8601AAF131322E400446C79 /* XMLDigesterCallParamRule.m */,
+				F8601AB0131322E400446C79 /* XMLDigesterObjectCreateRule.h */,
+				F8601AB1131322E400446C79 /* XMLDigesterObjectCreateRule.m */,
+				F8601AB2131322E400446C79 /* XMLDigesterPushBodyRule.h */,
+				F8601AB3131322E400446C79 /* XMLDigesterPushBodyRule.m */,
+				F8601AB4131322E400446C79 /* XMLDigesterRule.h */,
+				F8601AB5131322E400446C79 /* XMLDigesterRule.m */,
+				F8601AB6131322E400446C79 /* XMLDigesterSetNextRule.h */,
+				F8601AB7131322E400446C79 /* XMLDigesterSetNextRule.m */,
+				F8601AB8131322E400446C79 /* XMLDigesterSetPropertiesRule.h */,
+				F8601AB9131322E400446C79 /* XMLDigesterSetPropertiesRule.m */,
+				F8601ABA131322E400446C79 /* XMLDigesterSetPropertyRule.h */,
+				F8601ABB131322E500446C79 /* XMLDigesterSetPropertyRule.m */,
+				F8601AA21313228900446C79 /* Routes.xml */,
 				F8601A911313225800446C79 /* RoutesAppDelegate.h */,
 				F8601A921313225800446C79 /* RoutesAppDelegate.m */,
 				F8601A941313225800446C79 /* MainWindow.xib */,
@@ -86,6 +183,23 @@
 				F8601A981313225800446C79 /* RootViewController.m */,
 				F8601A9A1313225800446C79 /* RootViewController.xib */,
 				F8601A891313225800446C79 /* Supporting Files */,
+				F8601AC81313244C00446C79 /* XMLDigesterBlockRule.h */,
+				F8601AC91313244C00446C79 /* XMLDigesterBlockRule.m */,
+				F8601ACB131324B200446C79 /* Route.h */,
+				F8601ACC131324B200446C79 /* Route.m */,
+				F8601ACE1313281B00446C79 /* Stop.h */,
+				F8601ACF1313281B00446C79 /* Stop.m */,
+				F8601AD113132B3B00446C79 /* Direction.h */,
+				F8601AD213132B3B00446C79 /* Direction.m */,
+				F8601AD4131336BD00446C79 /* DirectionsTableViewController.h */,
+				F8601AD5131336BE00446C79 /* DirectionsTableViewController.m */,
+				F8601AD7131338B600446C79 /* StopsTableViewController.h */,
+				F8601AD8131338B700446C79 /* StopsTableViewController.m */,
+				F8601ADA13133FBA00446C79 /* StopViewController.h */,
+				F8601ADB13133FBC00446C79 /* StopViewController.m */,
+				F8601ADC13133FBE00446C79 /* StopViewController.xib */,
+				F8601AE3131346C000446C79 /* RoutesParser.h */,
+				F8601AE4131346C200446C79 /* RoutesParser.m */,
 			);
 			path = Routes;
 			sourceTree = "<group>";
@@ -154,6 +268,8 @@
 				F8601A8D1313225800446C79 /* InfoPlist.strings in Resources */,
 				F8601A961313225800446C79 /* MainWindow.xib in Resources */,
 				F8601A9C1313225800446C79 /* RootViewController.xib in Resources */,
+				F8601AA31313228900446C79 /* Routes.xml in Resources */,
+				F8601ADE13133FC100446C79 /* StopViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +283,26 @@
 				F8601A901313225800446C79 /* main.m in Sources */,
 				F8601A931313225800446C79 /* RoutesAppDelegate.m in Sources */,
 				F8601A991313225800446C79 /* RootViewController.m in Sources */,
+				F8601ABC131322E500446C79 /* XMLDigester.m in Sources */,
+				F8601ABD131322E500446C79 /* XMLDigesterAddObjectRule.m in Sources */,
+				F8601ABE131322E500446C79 /* XMLDigesterCallMethodRule.m in Sources */,
+				F8601ABF131322E500446C79 /* XMLDigesterCallMethodWithAttributeRule.m in Sources */,
+				F8601AC0131322E500446C79 /* XMLDigesterCallMethodWithElementBodyRule.m in Sources */,
+				F8601AC1131322E500446C79 /* XMLDigesterCallParamRule.m in Sources */,
+				F8601AC2131322E500446C79 /* XMLDigesterObjectCreateRule.m in Sources */,
+				F8601AC3131322E500446C79 /* XMLDigesterPushBodyRule.m in Sources */,
+				F8601AC4131322E500446C79 /* XMLDigesterRule.m in Sources */,
+				F8601AC5131322E500446C79 /* XMLDigesterSetNextRule.m in Sources */,
+				F8601AC6131322E500446C79 /* XMLDigesterSetPropertiesRule.m in Sources */,
+				F8601AC7131322E500446C79 /* XMLDigesterSetPropertyRule.m in Sources */,
+				F8601ACA1313244C00446C79 /* XMLDigesterBlockRule.m in Sources */,
+				F8601ACD131324B200446C79 /* Route.m in Sources */,
+				F8601AD01313281B00446C79 /* Stop.m in Sources */,
+				F8601AD313132B3B00446C79 /* Direction.m in Sources */,
+				F8601AD6131336BF00446C79 /* DirectionsTableViewController.m in Sources */,
+				F8601AD9131338B900446C79 /* StopsTableViewController.m in Sources */,
+				F8601ADD13133FC100446C79 /* StopViewController.m in Sources */,
+				F8601AE5131346C500446C79 /* RoutesParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
